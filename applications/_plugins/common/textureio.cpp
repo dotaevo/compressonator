@@ -741,7 +741,7 @@ int AMDSaveMIPSTextureImage(const char *DestFile, MipSet *MipSetIn, bool use_OCV
         MipSetIn->m_swizzle = holdswizzle;
 
         delete plugin_Image;
-        plugin_Image = NULL;
+        plugin_Image = NULL; 
     }
 
 
