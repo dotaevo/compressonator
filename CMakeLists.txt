@@ -122,8 +122,8 @@ cmp_option(OPTION_BUILD_BROTLIG_GUI   "Use Brotli-G Codec for GUI" OFF) # Brotli
 option(OPTION_BUILD_INTERNAL_CMP_TEST "Build Internal Application: cmp_test" OFF)
 
 # No longer supported
-cmp_option(OPTION_BUILD_ASTC    "Build ASTC Support" OFF)
-cmp_option(OPTION_BUILD_DRACO   "Build CLI Draco Support" OFF)
+cmp_option(OPTION_BUILD_ASTC    "Build ASTC Support" ON)
+# cmp_option(OPTION_BUILD_DRACO   "Build CLI Draco Support" OFF)
 
 # this needs to be removed
 cmp_option(NO_LEGACY_BEHAVIOR   "Disables any legacy behavior (before CMake migration)" ON) 
