@@ -539,7 +539,7 @@ int main(int argc, char* argv[])
     CMP_RegisterHostPlugins();
 
 #if (OPTION_CMP_QT == 1)
-    QString dirPath = QCoreApplication::applicationDirPath();
+    QString dirPath = QCoreApplication::applicationDirPath(); 
     QCoreApplication::addLibraryPath(dirPath + "./plugins/imageformats");
 #endif
 
