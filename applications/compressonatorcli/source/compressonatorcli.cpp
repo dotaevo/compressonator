@@ -43,7 +43,7 @@
 #endif
 
 // Standard App Static Plugin Interfaces for minimal support
-#if (OPTION_BUILD_ASTC == 1)
+#if (OPTION_BUILD_ASTC == 1) 
 #pragma comment(lib, "Image_ASTC.lib")
 #endif
 
