@@ -45,7 +45,7 @@
 #endif
 
 // Standard App Static Plugin Interfaces for minimal support
-#pragma comment(lib, "Image_ASTC.lib")
+#pragma comment(lib, "Image_ASTC.lib") 
 
 #if (OPTION_BUILD_EXR == 1)
 #pragma comment(lib, "Image_EXR.lib")
